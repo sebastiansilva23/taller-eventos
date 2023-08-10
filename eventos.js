@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const btnSaludar = document.getElementById("miBoton");
 
     miDiv.addEventListener("click", function() {
-        alert("Hola, soy el div!");
+        alert("Hola! Soy el div");
     });
 
     btnSaludar.addEventListener("click", function() {
-        alert("Hola desde el botón!");
+        alert("Hola!");
     });
 });
